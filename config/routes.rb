@@ -1,7 +1,7 @@
 Rails.application.routes.draw do
-  root 'about#index'
+  root 'page#index'
 
-  get 'page/index', to: 'page#index'
+  get 'about', to: 'about#index'
 
   resources :articles
 
